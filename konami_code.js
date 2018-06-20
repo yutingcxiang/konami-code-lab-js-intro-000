@@ -15,9 +15,9 @@ function init() {
   let index = 0;
   document.addEventListener('keydown', function onKeyDownHandler(e) {
     const key = e.key;
-    if (key === alphabet[index]) {
+    if (key === code[index]) {
       index++;
-    if (index === alphabet.length) {
+    if (index === code.length) {
       alert("congrats!");
       index = 0;
      }
